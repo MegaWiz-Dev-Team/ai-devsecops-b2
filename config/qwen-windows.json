@@ -1,0 +1,15 @@
+{
+  "providers": {
+    "local-ollama": {
+      "type": "openai",
+      "baseURL": "http://localhost:11434/v1",
+      "apiKey": "ollama"
+    },
+    "alibaba": {
+      "type": "openai",
+      "baseURL": "https://coding-intl.dashscope.aliyuncs.com/v1",
+      "apiKey": "YOUR_DASHSCOPE_API_KEY"
+    }
+  },
+  "model": "local-ollama/qwen2.5-coder:7b"
+}
