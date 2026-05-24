@@ -15,6 +15,10 @@ echo "[2/2] Configuring Qwen Code..."
 mkdir -p ~/.qwen
 cp /workshop/config/qwen.json ~/.qwen/config.json
 
+echo ""
 echo "=== Done ==="
-echo "Test: qwen --version"
+echo "⚠️  ใส่ API Key ก่อนใช้งาน:"
+echo "    nano ~/.qwen/config.json"
+echo "    แทน YOUR_DASHSCOPE_API_KEY ด้วย key ที่ได้รับจาก instructor"
+echo ""
 qwen --version
